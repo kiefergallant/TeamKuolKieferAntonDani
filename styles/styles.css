@@ -1,0 +1,18 @@
+ul{
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+}
+
+li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px 18px;
+  text-decoration: none;
+  font-size: 5.0em;
+}
+
+li a:hover{
+  background-color: black;
+}
