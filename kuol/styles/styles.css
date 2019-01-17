@@ -39,7 +39,7 @@ ul {
     justify-content:space-between;
     align-items:center;
     height:10vh;
-    padding:2em 2em;
+    padding:2em;
 }
 
 .nav {
@@ -52,5 +52,19 @@ ul {
 }
 
 .nav__item {
-    padding:;
+    padding:0 1em;
 }
+
+.main {
+    display:flex;
+    justify-content: center;
+    height:90vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main {
+    padding:2em;
+    text-align:center;
+}
+
