@@ -1,0 +1,26 @@
+.navbar{
+  background-color: #68829e;
+  overflow:hidden;
+
+}
+
+.navbar a{
+  color: white;
+  font-size: 3.0em;
+  text-decoration: none;
+  text-align: center;
+  padding: 30px 16px;
+}
+
+.navbar a.home{
+  background-color:#aebd38;
+  color: white;
+}
+
+a.home:hover{
+  background-color: #505160;
+}
+
+a:hover{
+  background-color: #598234;
+}
