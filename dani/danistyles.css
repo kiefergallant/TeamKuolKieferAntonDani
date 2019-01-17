@@ -1,0 +1,22 @@
+
+
+body .mysterious {
+    min-height: 100vh;
+    /* background: linear-gradient(75deg,#da981f, red 78%); */
+    background: linear-gradient(#e66465, #9198e5);
+    font-family: 
+}
+
+.mysterious h1, h2 {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+.corporate {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background: linear-gradient(75deg,#da981f, red 78%);
+}
+
+.mysterious p {
+    font-family: 'Forum', cursive;
+}
+}
