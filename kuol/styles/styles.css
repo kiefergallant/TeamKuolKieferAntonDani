@@ -36,7 +36,7 @@ ul {
         linear-gradient(
             /* rgba(0,255,210,0.9),
             rgba(2,155,210,0.9) */
-            rgba(255,210,0.9,0.5),
+            rgba(34,113,174,0.9),
             rgba(255,0,0,0.9)
             ),
         url(../images/hero2.jpg);
@@ -47,26 +47,27 @@ ul {
    
 }
 
-/* .wrapper {
-    margin:auto;
-    min-width:800px;
-} */
+
 
 .header {
     display:flex;
     justify-content:space-between;
     align-items:center;
     height:10vh;
+    background-color: rgba(255, 0, 0, 0.2);
 }
 
 .header__logo {
     font-family: "Lalezar"; 
     text-transform: uppercase;
     color:white;
+    margin-left:6em;
 }
 
 .nav {
     display:flex;
+    margin-right:6em;
+
 }
 
 .nav__list{
@@ -75,11 +76,13 @@ ul {
 }
 
 .nav__item {
-    padding:0 1em;  
+    padding:0 1em;
+    color:white;  
+    transition: color 0.4s ease-in-out;
 }
 
 .nav__item:hover {
-    border-bottom:2px solid white;
+    color:red; 
 }
 
 .main {
