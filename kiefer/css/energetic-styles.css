@@ -1,26 +1,50 @@
-.navbar{
-  background-color: #68829e;
-  overflow:hidden;
-
+.navbar {
+  background-color: #241c21;
+  overflow: hidden;
 }
 
-.navbar a{
+.navbar a {
   color: white;
-  font-size: 3.0em;
+  font-size: 3em;
   text-decoration: none;
   text-align: center;
   padding: 30px 16px;
 }
 
-.navbar a.home{
-  background-color:#aebd38;
-  color: white;
+.navbar a.home {
+  background-color: #fff9f8;
+  color: #241c21;
 }
 
-a.home:hover{
-  background-color: #505160;
+a.home:hover {
+  background-color: #9eadc8;
 }
 
-a:hover{
-  background-color: #598234;
+a:hover {
+  background-color: #9eadc8;
+}
+
+.parallax {
+  background-image: url("../images/a.jpg");
+
+  min-height: 500px;
+
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.ontop {
+  height: 600px;
+  background-color: grey;
+  font-size: 36px;
+  opacity: 0.5;
+  border-radius: 75px;
+}
+
+.mainheading {
+  text-align: center;
+  padding-top: 0;
+  margin-top: 0;
 }
