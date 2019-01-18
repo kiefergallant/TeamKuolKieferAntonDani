@@ -1,0 +1,77 @@
+:root{
+    box-sizing: border-box;
+    font-size: 16px;
+
+    /* css variables */
+
+    --blue:rgba(4,166,230,0.5);
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:sans-serif;
+    
+}
+
+/* CSS RESETS START*/
+h1,h2{
+    margin:0;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type:none;
+}
+/* CSS RESETS END*/
+
+.hero {
+    width: 100vw;
+    height: auto;
+
+   
+}
+
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:10vh;
+    background-color: var(--blue);
+}
+
+.header__logo {
+    font-family: sans-serif; 
+    text-transform: uppercase;
+    color:white;
+    margin-left:6em;
+}
+
+.nav {
+    display:flex;
+    margin-right:6em;
+
+}
+
+.nav__list{
+    display:flex;
+    flex-direction: row;
+}
+
+.nav__item {
+    padding:0 1em;
+    color:white;  
+    transition: color 0.4s ease-in-out;
+}
+
+.nav__item:hover {
+    color:black; 
+}
