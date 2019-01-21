@@ -1,0 +1,139 @@
+:root{
+    box-sizing: border-box;
+    font-size: 16px;
+
+    /* css variables */
+
+    --pink:rgba(254,1,102,0.8)    ;
+    --light-pink:rgba(254,153,193,1);
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+}
+
+@font-face {
+    font-family: chewy;
+    src:url('../fonts/Chewy/Chewy-Regular.ttf');
+}
+
+body{
+    font-family:chewy;
+    
+}
+
+/* CSS RESETS START*/
+h1,h2{
+    margin:0;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type:none;
+}
+/* CSS RESETS END*/
+
+.hero {
+    width: 100vw;
+    height: auto;
+
+   
+}
+
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:10vh;
+    background-color: var(--pink);
+}
+
+.header__logo {
+    text-transform: uppercase;
+    color:white;
+    margin-left:6em;
+}
+
+.nav {
+    display:flex;
+    margin-right:6em;
+
+}
+
+.nav__list{
+    display:flex;
+    flex-direction: row;
+}
+
+.nav__item {
+    padding:0 1em;
+    color:white;  
+    transition: color 0.4s ease-in-out;
+}
+
+.nav__item:hover {
+    color:var(--light-pink); 
+}
+
+.child {
+    height:20em;
+    width:30em;
+}
+
+.hero__content {
+    display:flex;
+    padding:2em 0;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--light-pink);
+}
+
+
+.hero__text{
+    max-width:20em;
+    margin-top:1em;
+    line-height: 1.5em;
+}
+
+.image__gallery{
+    background-color: var(--pink);
+    text-align:center;
+}
+
+.gallery__header {
+    padding:1em 0;
+    color:white;
+}
+
+.images {
+    display:flex;
+    justify-content:space-around;
+    
+}
+
+.images img{
+    height:25%;
+    width:25%;
+    padding:0 0 5em 0;
+}
+
+main {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center; 
+    padding:2em 10em;
+    line-height: 2em;
+}
+
+
+main p{
+    text-align: center;
+    margin-top:2em;
+}

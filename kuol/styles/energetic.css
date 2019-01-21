@@ -1,0 +1,191 @@
+:root{
+    box-sizing: border-box;
+    font-size: 16px;
+
+    /* css variables */
+
+    --blue:rgba(34,113,174,0.5);
+    --red:rgba(255,0,0,0.9);
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:sans-serif;
+    
+}
+
+/* CSS RESETS START*/
+h1,h2{
+    margin:0;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+ul {
+    list-style-type:none;
+}
+/* CSS RESETS END*/
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    background: 
+        linear-gradient(
+            /* rgba(0,255,210,0.9),
+            rgba(2,155,210,0.9) */
+            rgba(34,113,174,0.9),
+            rgba(255,0,0,0.9)
+            ),
+        url(../images/hero2.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position:center;
+    background-size: cover;
+   
+}
+
+
+
+.header {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:10vh;
+    background-color: rgba(255, 0, 0, 0.2);
+}
+
+.header__logo {
+    font-family: "Lalezar"; 
+    text-transform: uppercase;
+    color:white;
+    margin-left:6em;
+}
+
+.nav {
+    display:flex;
+    margin-right:6em;
+
+}
+
+.nav__list{
+    display:flex;
+    flex-direction: row;
+}
+
+.nav__item {
+    padding:0 1em;
+    color:white;  
+    transition: color 0.4s ease-in-out;
+}
+
+.nav__item:hover {
+    color:red; 
+}
+
+.main {
+    display:flex;
+    justify-content: center;
+    height:90vh;
+    align-items: center;
+    flex-direction: column;
+    text-align:center;
+}
+
+.main * + *{
+    margin-top:1em;
+} 
+
+.main__header{
+    font-family: "Lalezar"; 
+    text-transform: uppercase;
+    font-size:2.5rem;
+}
+
+.main__content {
+    font-size:1.3rem;
+    line-height: 1.5em;
+}
+
+.button {
+    padding:1em 2em;
+    background-color:white;
+    transition: color 0.4s ease-in-out;
+}
+
+.button:hover {
+    color:red; 
+}
+
+
+/* call to action  */
+
+.cta {
+    height:15vh;
+    background-color:var(--red);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0 5em;
+}
+
+.cta__content {
+    color:white;
+}
+
+/* service area */
+
+.service {
+    text-align: center;
+    padding:1.2em 0;
+}
+
+.service__box {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align:center;
+    width:100%;
+    
+    background-color: #bebebe;
+    /* padding:2em 6em; */
+}
+
+#service__icon{
+    display:flex;
+    padding: 0.5em 2em;
+    justify-content: center;
+    align-items:center;
+    font-size: 2em;
+    
+}
+
+.service__content{
+    padding:0.5em 0;
+}
+
+.main{
+    display:flex;
+    height: auto;
+    padding:;
+    text-align: left;
+    
+}
+
+.main h1{
+    padding:2em 2em 0;
+    
+}
+
+.main p{
+    padding:2em;
+    line-height: 2em;
+}

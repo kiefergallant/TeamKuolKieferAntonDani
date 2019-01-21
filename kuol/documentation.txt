@@ -1,5 +1,6 @@
 color pallete : https://www.color-hex.com/color-palette/70847
 images: https://pixabay.com/en/portrait-gamer-gamers-play-fantasy-3163518/
+https://pixabay.com/en/child-colors-nepal-india-tradition-3194977/
 
 CSS BASE
 :root{
