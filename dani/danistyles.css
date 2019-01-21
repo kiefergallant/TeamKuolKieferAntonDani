@@ -1,0 +1,238 @@
+* {
+    box-sizing: border-box;
+}
+.wrapper {
+    margin: 0 auto;
+    max-width: 800px;
+}
+body {
+    margin: 0;
+    min-height: 100hv;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    background-size: cover;
+    height: 100hv;
+}
+nav ul {
+    list-style: none;
+    padding: 10px;
+}
+nav li {
+    display: inline-block;
+    width: 19%;
+    /* border: 1px solid black; */
+    padding: 10px 15px;
+    text-align: center;
+    margin: o auto;
+}
+nav a {
+    text-align: center;
+    text-decoration: none; 
+    text-transform: uppercase;
+    color: black;
+   }
+h1 {
+    text-align: center;
+    padding: 30px 0 10px;
+}
+main {
+    padding: 10px;
+}
+/* mysterious.html*/
+.mysterious {
+    padding: 10px;
+    background: url(./img/hero_bg_2.jpg) no-repeat;
+ }
+.mysterious nav a {
+    color: #f7d8c1;
+    letter-spacing: 3px;
+    font-family: 'Forum', cursive;
+}
+.mysterious nav a:hover {
+    color: #ceb39f;
+    text-decoration: underline;
+    font-weight: 600;
+}
+.mysterious h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 50px;   
+    letter-spacing: 5px;
+    color: #ceb39f;
+}
+.mysterious h1::first-letter {
+    font-size: 200%;
+    font-weight: 400;
+}
+.mysterious p {
+    font-family: 'Forum', cursive;
+    color: #f7d8c1;
+    font-size: 19px;
+    line-height: 1.4em;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin: 0 auto;
+    text-indent: 5;
+}
+.mysterious main .wrapper {
+    background: rgba(20, 4, 26, 0.8);
+    border-radius: 20px;
+    padding: 30px;
+}
+.mysterious hr {
+    border: 0;
+    border-top: 1px solid #f7d8c1;
+}
+/* corporate.html */
+.corporate {
+    color: rgb(53, 53, 53);
+    background: url(./img/hero_bg_1.jpg) no-repeat;
+}
+.corporate a {
+    letter-spacing: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: black;
+}
+.corporate a:hover {
+    font-weight: 600;
+    text-decoration: underline;
+    color: #4a8810;
+}
+.corporate h1 {
+    color: #4a8810;
+    text-transform: uppercase;
+    text-align: left;
+    font-family: 'Italiana', serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-left: 30px;
+    }
+.corporate h2 {
+    color: rgb(53, 53, 53);
+}
+.corporate p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.4;
+    color: black;
+}
+.corporate main .wrapper {
+    background: rgba(204, 204, 204, 0.8);
+    border-radius: 10px;
+    padding: 30px;
+}
+/* prestige.html */
+.prestige {
+    background:linear-gradient(to top,rgb(0, 0, 0) 0,rgb(139, 139, 139) 100%);
+    background: url(./img/hero_bg_3.jpg);
+    background-position: center;
+    height: 100vh;
+}
+nav a {
+    color: gold;
+    font-family: 'Italiana', serif;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.prestige a:hover {
+    color: rgb(4, 0, 41);
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.prestige h1 {
+    color: gold;    
+    font-size: 40px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+ }
+.prestige h2 {
+    text-align: center;
+}
+.prestige h1, h2 {
+    font-family: 'Italiana', serif;
+    letter-spacing: 5px;
+    font-weight: 800;
+}
+.prestige p {
+    color: silver;
+    font-family: 'Marcellus', serif;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    letter-spacing: 1px;
+}
+.prestige hr {
+    border: 0;
+    border-top: 1px solid gold;
+}
+.prestige main .wrapper {
+    background: rgb(4, 0, 41);
+    border-radius: 20px;
+    padding: 30px;
+}
+/* fun.html */
+.fun {
+    background: #2c838a;
+    /* background: url(./img/floral-bg.jpg) repeat; */
+}
+.fun nav a {
+    color: rgb(44, 131, 138);
+    font-family: 'Gochi Hand', cursive; 
+    font-size: 24px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+.fun nav a:hover {
+    color: #EB0800;
+    font-weight: 600px;    
+}
+.fun ul {
+    background: #FFCC5C;
+    border-radius: 10px;
+}
+.fun h1 {
+    color: #FFCC5C;
+    font-size: 100px;
+    font-weight: 600;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-bottom: 0px;
+    margin: 0;
+    text-shadow: rgb(28, 78, 82) 2px 2px 5px;
+}
+.fun h2 {
+    color:rgb(44, 131, 138);
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.fun h1, h2 {
+    font-family: 'Gochi Hand', cursive;
+}
+.fun h1::first-letter {
+    font-size: 200%;
+    font-weight: 500;
+    color: #FF6F69;
+}
+.fun header .wrapper {
+    background: rgb(44, 131, 138);
+}
+.fun main .wrapper {
+    background: #FFCC5C;
+    border-radius: 20px;
+    padding: 30px;
+}
+.fun p {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 22px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+.fun p::first-letter {
+    color: rgb(44, 131, 138);
+    font-size: 200%;
+}
+.fun hr {
+    border: 0;
+    border-top: 1px solid #D60700;
+}
