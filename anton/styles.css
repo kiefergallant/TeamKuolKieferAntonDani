@@ -1,0 +1,83 @@
+h1 {
+  display: block;
+  font-size: 55px;
+  margin-top: 3em;
+  margin-bottom: 0.67em;
+  /* margin-left: auto;
+  margin-right: auto; */
+
+  font-family: "Coiny", cursive;
+  text-align: center;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.btn:hover {
+  background: #eee;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 25px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: gray;
+}
+
+.images {
+  display: inline-block;
+}
+
+.image-container {
+  text-align: center;
+}
+
+/* start of work */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+}
+
+.image1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.one {
+  width: 80%;
+  height: 50%;
+  margin: 50px;
+}
+
+.left-section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: 0 10px;
+}
