@@ -14,8 +14,14 @@
     padding:0;
 }
 
+@font-face {
+    font-family: 'quicksand';
+    src:url('../fonts/Quicksand/Quicksand-Regular.ttf');
+}
+
 body{
-    font-family:sans-serif;
+    font-family:quicksand;
+    background-color: var(--blue);
     
 }
 
@@ -48,8 +54,7 @@ ul {
     background-color: var(--blue);
 }
 
-.header__logo {
-    font-family: sans-serif; 
+.header__logo { 
     text-transform: uppercase;
     color:white;
     margin-left:6em;
@@ -119,14 +124,15 @@ align-items: center;
 
 .img {
     margin-top:2em;
+    margin-bottom: 5em;
     width:15em;
-    height:15em;
+    height:100%;
 }
 
 main {
     padding:10px;
-    height:100px;
-    margin:10em;
+    height:auto;
     line-height: 1.5em;
     text-align: center;
+    height: 12em;
 }

@@ -14,8 +14,13 @@
     padding:0;
 }
 
+@font-face {
+    font-family: chewy;
+    src:url('../fonts/Chewy/Chewy-Regular.ttf');
+}
+
 body{
-    font-family:sans-serif;
+    font-family:chewy;
     
 }
 
@@ -50,7 +55,6 @@ ul {
 }
 
 .header__logo {
-    font-family: sans-serif; 
     text-transform: uppercase;
     color:white;
     margin-left:6em;
